@@ -1,4 +1,11 @@
-
+body {
+  display: block;
+  margin: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
 
 
 .container {
@@ -11,27 +18,28 @@
   .top-left {
     position: absolute;
     top: 5%;
-    left: 20%;
+    left: 10%;
   }
 
   .socialmedia {
     position: absolute;
-    top: 25px;
-    right: 300px;
-    color: black;
+    top: 2%;
+    right: 18%;
+    color: rgba(0, 0, 0, 0.986);
       padding : 0px 40px;
       font-family: calibrated;
-      font-weight: 100;
+      font-weight: 200;
       font-style: normal;
-      font-size: 10px;
+      font-size: 15px;
+      text-decoration: none;
      
 
   }
-  
+ 
   .top-right {
     position: absolute;
-    top: 50px;
-    right: 350px;
+    top: 5%;
+    right: 20%;
   }
 
   .headtable{

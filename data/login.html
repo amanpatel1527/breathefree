@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+ <!---UTF ENCODING -->
+ <meta charset="utf-8">
+
+ <!--- FEVICON IMAGE FOR HEAD--->
+ <link rel="shortcut icon" type="image/png" href="data/fevicon.png" />
+
+ 
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!---head name-->
+ 
+ <title> Berok Zindagi | BreathFree</title>
+
+ 
+
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#006eb8;
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: digitalfonts ;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(255, 255, 255) ;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+.content{
+  width: 100%;
+  display:flex;
+  justify-content:left;
+  align-items:left;
+}
+</style>
+</head>
+<body>
+
+
+<h2><a style="text-decoration:none" href="/data/login.html" target="_blank">Book an Appointment</a></h2>
+
+<form action="/action_page.php" method="post"  > 
+  <div class="container">
+    <label for="uname" style="align-items: left;" ><b>YOUR NAME</b></label>
+    <input type="text" placeholder="Enter your Full Name" name="uname"  required>
+
+
+    <label for="uname" style="align-items: left;" ><b>AGE</b></label>
+    <input type="text" placeholder="Enter your Age" name="uname"  required>
+
+
+    <label for="uname"><b>Mobile Number</b></label>
+    <input type="text" placeholder="Enter Your Mobile Number" name="uname" required>
+
+    <label for="uname"><b>E-mail</b></label>
+    <input type="text" placeholder="Enter Your E-mail Address" name="uname" required>
+
+    <label for="uname"><b>Address</b></label>
+    <input type="text" placeholder="Enter Your Address" name="uname" required>
+
+    <label for="uname"><b>Query</b></label>
+    <input type="text" placeholder="Enter Your Queries" name="uname" required>
+
+    <label for="day" right: >Date</label>
+    <input type="date" id="day" name="day">
+      <br><br><br>
+    <label for="day" right: >Time</label>
+    <input type="time" id="day" name="day">
+      <br> <br>
+    <label for="">  <b>Additional Information </b>  </label> <br>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+
+ </textarea>
+
+  
+
+
+      <br>
+
+      <table><tr>
+
+      
+   <td> <button type="submit"><a href="/index.html" >Submit</a></button></td>
+  <td><button type="submit"><a href="/data/login.html" >Reset</a></button></td>
+  </tr> 
+    </table> 
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember my Details
+    </label>
+   
+  </div>
+</form>
+<button  style="width:20%" ><a href="/index.html">Back to Home Page</a></button>
+</body>
+</html>
